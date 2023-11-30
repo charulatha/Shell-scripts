@@ -1,0 +1,12 @@
+#!/bin/bash
+
+if [ ! -f myfile.cfg ];
+then
+  echo The file does not exist and we display an error
+  exit 64
+fi
+
+echo The file exists and we will do something
+echo "(Not really doing anything, but this is where we could do it)"
+
+exit 0
